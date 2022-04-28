@@ -4,7 +4,7 @@ from utils import Config
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/comingsoon')
 def comingsoon():
     return render_template(
         'comingsoon.html',
